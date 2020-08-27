@@ -1,0 +1,13 @@
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.col {
+  width: 100px;
+}
